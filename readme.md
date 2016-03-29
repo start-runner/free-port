@@ -18,7 +18,7 @@ npm i -S start-free-port
 ## Usage
 
 ```js
-import Start from 'start';
+import start from 'start';
 import reporter from 'start-pretty-reporter';
 import freePort from 'start-free-port';
 import * as webpack from 'start-webpack';
