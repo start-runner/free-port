@@ -5,9 +5,8 @@
 [![windows build](https://img.shields.io/appveyor/ci/start-runner/free-port.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/start-runner/free-port)
 [![coverage](https://img.shields.io/codecov/c/github/start-runner/free-port.svg?style=flat-square)](https://codecov.io/github/start-runner/free-port)
 [![deps](https://img.shields.io/gemnasium/start-runner/free-port.svg?style=flat-square)](https://gemnasium.com/start-runner/free-port)
-[![gitter](https://img.shields.io/badge/gitter-join_chat_%E2%86%92-46bc99.svg?style=flat-square)](https://gitter.im/start-runner/start)
 
-Task for [Start](https://github.com/start-runner/start) to find a free port from range.
+Task for [Start](https://github.com/start-runner/start) to find a free port from specified range.
 
 ## Install
 
@@ -44,3 +43,7 @@ export function dev() {
   * `maxPort` – `65535` by default
   * `host` – `'127.0.0.1'` by default
 * `callback` – callback function which will be called with found port
+
+[List of TCP and UDP port numbers](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers):
+
+> The range 49152–65535 contains dynamic or private ports that cannot be registered with IANA. This range is used for private, or customized services or temporary purposes and for automatic allocation of ephemeral ports.
