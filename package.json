@@ -10,6 +10,7 @@
   "main": "build/index.js",
   "dependencies": {
     "portscanner": "^1.0.0",
+    "pify": "^2.3.0",
     "babel-runtime": "^6.11.6"
   },
   "devDependencies": {
