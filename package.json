@@ -1,6 +1,6 @@
 {
   "name": "start-free-port",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Free port task for Start",
   "keywords": [ "start", "start-task" ],
   "homepage": "https://github.com/start-runner/free-port",
