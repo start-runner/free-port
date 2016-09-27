@@ -1,9 +1,9 @@
 # start-free-port
 
 [![npm](https://img.shields.io/npm/v/start-free-port.svg?style=flat-square)](https://www.npmjs.com/package/start-free-port)
-[![linux build](https://img.shields.io/travis/start-runner/free-port.svg?label=linux&style=flat-square)](https://travis-ci.org/start-runner/free-port)
-[![windows build](https://img.shields.io/appveyor/ci/start-runner/free-port.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/start-runner/free-port)
-[![coverage](https://img.shields.io/codecov/c/github/start-runner/free-port.svg?style=flat-square)](https://codecov.io/github/start-runner/free-port)
+[![linux build](https://img.shields.io/travis/start-runner/free-port/master.svg?label=linux&style=flat-square)](https://travis-ci.org/start-runner/free-port)
+[![windows build](https://img.shields.io/appveyor/ci/start-runner/free-port/master.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/start-runner/free-port)
+[![coverage](https://img.shields.io/codecov/c/github/start-runner/free-port/master.svg?style=flat-square)](https://codecov.io/github/start-runner/free-port)
 [![deps](https://img.shields.io/gemnasium/start-runner/free-port.svg?style=flat-square)](https://gemnasium.com/start-runner/free-port)
 
 Task for [Start](https://github.com/start-runner/start) to find a free port from specified range.
