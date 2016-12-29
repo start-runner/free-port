@@ -14,7 +14,7 @@
   ],
   "main": "build/index.js",
   "dependencies": {
-    "portscanner": "^1.0.0"
+    "portscanner": "^2.1.1"
   },
   "devDependencies": {
     "babel-preset-start": "^0.1.0",
