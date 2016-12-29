@@ -10,8 +10,10 @@ Task for [Start](https://github.com/start-runner/start) to find a free port from
 
 ## Install
 
-```
-npm i -S start-free-port
+```sh
+npm install --save-dev start-free-port
+# or
+yarn add --dev start-free-port
 ```
 
 ## Usage
@@ -25,13 +27,11 @@ import * as webpack from 'start-webpack';
 const minPort = 3000;
 const maxPort = 3099;
 
-export function dev() {
-    return start(reporter())(
-        freePort({ minPort, maxPort }, port => start(
-            webpack.dev(require('./conf/webpack.dev'), port)
-        ))
-    );
-}
+export const dev = () => start(reporter())(
+  freePort({ minPort, maxPort }, port => start(
+    webpack.dev(require('./conf/webpack.dev'), port)
+  ))
+);
 ```
 
 ## Arguments
